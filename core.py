@@ -1,12 +1,15 @@
 class Movie:
     def __init__(self, name, year, duration):
-        self.name = name
+        self.name = name.title()
         self.year = year
         self.duration = duration
 
 
+class Series:
+     def __init__(self, name, year, seasons):
+        self.name = name.title()
+        self.year = year
+        self.seasons = seasons
 
-avengers = Movie('avengers', 2011, 100)
 
 
-print(f'the movie is caled {avengers.name}, was realese in {avengers.year}, and is {avengers.duration} min long')
