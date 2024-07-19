@@ -12,5 +12,6 @@ tua.add_likes()
 movies_series = [avengers, tua]
 
 for program in movies_series:
-    program.show()
+    Program.line_break()
+    print(program)
     Program.line_break()

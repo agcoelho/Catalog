@@ -19,8 +19,9 @@ class Program:
     def name(self, new_name):
         self.nome = new_name.title()
 
-    def show(self):
-        print(f'Title -> {self._name}\nYear -> {self.year}\nLikes -> {self._likes}')
+    def __str__(self):
+        
+        return f'Title -> {self._name}\nYear -> {self.year}\nLikes -> {self._likes}'
 
     def line_break():
         print('\n#############################################################################################\n')
@@ -33,8 +34,8 @@ class Movie(Program):
         super().__init__(name, year)
         self.duration = duration
 
-    def show(self):
-        print(f'Title -> {self._name}\nYear -> {self.year}\nDuration -> {self.duration} Min\nLikes -> {self._likes}')
+    def __str__(self):
+        return f'Title -> {self._name}\nYear -> {self.year}\nDuration -> {self.duration} Min\nLikes -> {self._likes}'
         
 
    
@@ -46,8 +47,8 @@ class Series(Program):
         self.seasons = seasons
 
 
-    def show(self):
-        print(f'Title -> {self._name}\nYear -> {self.year}\nSeasons -> {self.seasons}\nLikes -> {self._likes}')
+    def __str__(self):
+        return f'Title -> {self._name}\nYear -> {self.year}\nSeasons -> {self.seasons}\nLikes -> {self._likes}'
         
 
 
