@@ -1,6 +1,19 @@
+# Arquivos temporários
+*.tmp
+
+# Arquivos de log
+*.log
+
+# Diretório de configuração local
+config/
+
+# Arquivos de compilação
+*.o
+*.class
+
 #ignorar o pycache
-C:\Users\afons\OneDrive\Desktop\projetos_python\catalog\__pycache__
+
+__pycache__/
 
 #ignore o git
-
-C:\Users\afons\OneDrive\Desktop\projetos_python\catalog\.gitignore
+.gitignore
