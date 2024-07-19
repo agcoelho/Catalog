@@ -22,7 +22,11 @@ tua.add_likes()
 movies_series = [avengers, orphan, scream, poor, spider, tua, boys, modern, got, gf]
 weekend_playlist = Playlist('weekend', movies_series)
 
-for program in weekend_playlist.index:
+for program in weekend_playlist:
     Program.line_break()
     print(program)
     Program.line_break()
+
+
+print(f'playlist size is: {len(weekend_playlist)}')
+Program.line_break()

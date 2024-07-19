@@ -51,11 +51,16 @@ class Series(Program):
         return f'Title -> {self._name}\nYear -> {self.year}\nSeasons -> {self.seasons}\nLikes -> {self._likes}'
         
 
-class Playlist:
+class Playlist(list):
     def __init__(self, name, index):
         self.name = name
         self.index = index
 
+    @property   
+    def listing(self):
+        return self.index
+    
+    @property
     def size(self):
         return len(self.index)
 
