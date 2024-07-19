@@ -16,3 +16,9 @@ print(f'The movie is caled {avengers.name}, was realese in {avengers.year}, and 
 print('#############################################################################################')
 
 print(f'The Series is caled {tua.name}, was realese in {tua.year}, and have {tua.seasons} seasons.\nLikes - {tua.likes}')
+
+
+movies_series = [avengers, tua]
+
+for program in movies_series:
+    print(f'Title -> {program.name}\nYear -> {program.year}\nLikes -> {program.likes}\n') 
