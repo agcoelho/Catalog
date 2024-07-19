@@ -1,4 +1,5 @@
+#ignorar o pycache
+*/__pycache__/
 
-#ignora o pycache
-
-__pycache__/
+#ignore o git
+.gitignore
