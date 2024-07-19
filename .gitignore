@@ -1,5 +1,6 @@
 #ignorar o pycache
-*/__pycache__/
+C:\Users\afons\OneDrive\Desktop\projetos_python\catalog\__pycache__
 
 #ignore o git
-*/.gitignore
+
+C:\Users\afons\OneDrive\Desktop\projetos_python\catalog\.gitignore
