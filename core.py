@@ -24,20 +24,18 @@ class Program:
 
 class Movie(Program):
     def __init__(self, name, year, duration):
-        self._name = name.title()
-        self.year = year
+        super().__init__(name, year)
         self.duration = duration
-        self._likes = 0
+        
 
    
 
 
 class Series(Program):
     def __init__(self, name, year, seasons):
-        self._name = name.title()
-        self.year = year
+        super().__init__(name, year)
         self.seasons = seasons
-        self._likes = 0
+        
 
 
 
