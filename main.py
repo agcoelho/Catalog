@@ -28,5 +28,5 @@ for program in weekend_playlist:
     Program.line_break()
 
 
-print(f'playlist size is: {len(weekend_playlist)}')
+print(f'playlist size is: {len(weekend_playlist._index)}')
 Program.line_break()
